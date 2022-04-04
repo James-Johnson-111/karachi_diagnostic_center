@@ -1,0 +1,167 @@
+.TopBar {
+    width: 100%;
+    height: 70px;
+    background-color: #181C32;
+    position: relative;
+}
+
+.TopBar .TopBarCenter {
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TopBar .TopBar_Content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.TopBar .TopBar_Content1 a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.TopBar .TopBar_Content1 .Divs {
+    padding: 10px 15px;
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.TopBar .TopBar_Content1 .Divs:hover {
+    color: #FFF;
+}
+
+.TopBar .active {
+    background-color: #303347;
+    border-radius: 5px;
+    color: #FFF !important;
+}
+
+.TopBar .TopBar_Content2 {
+    display: grid;
+    grid-template-columns: 15fr 15fr 15fr 15fr 15fr 25fr;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.TopBar .TopBar_Content2 .Divs .hoverdiv,
+.TopBar .TopBar_Small .hoverdiv {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.TopBar .TopBar_Content2 div img {
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+}
+
+.TopBar .TopBar_Content2 .createNew,
+.TopBar .Topbar_second .Topbar_secondDIv .createNew {
+    background-color: #0BB783;
+    border-radius: 10px;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.TopBar .TopBar_Content2 .createNew p {
+    color: #FFF;
+    margin: 0 !important;
+}
+
+.TopBar .TopBar_Content2 .Divs .hoverdiv:hover,
+.TopBar .TopBar_Small .hoverdiv:hover {
+    background-color: #303347;
+}
+
+.TopBar .TopBar_Content2 .createNew:hover {
+    background-color: #0aac7b;
+}
+
+.TopBar .TopBar_Small {
+    display: none;
+}
+
+.TopBar .Topbar_second {
+    display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+    .TopBar .TopBarCenter {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .TopBar .TopBarCenter {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .TopBar .TopBarCenter {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .TopBar {
+        height: 60px;
+    }
+    .TopBar .TopBarCenter {
+        display: none;
+    }
+    .TopBar .TopBar_Small {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        height: 100%;
+    }
+    .TopBar .TopBar_Small .CenterIcons {
+        display: flex;
+    }
+    .TopBar .TopBar_Small .CenterIcons .hoverdiv {
+        margin: 0 20px;
+    }
+    .TopBar .TopBar_Small .CenterIcons .hoverdiv {
+        width: 40px;
+        height: 40px;
+    }
+    .TopBar .Topbar_second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-top: 1px solid #CCEEF2;
+        padding: 20px 0;
+        background-color: #181C32;
+        z-index: 1;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        height: calc( 100vh - 60px);
+    }
+    .TopBar .Topbar_second .Topbar_secondDIv div {
+        padding: 10px 0;
+    }
+    .TopBar .Topbar_second .Topbar_secondDIv div .TB_2_Link {
+        color: #fff;
+        padding: 5px 10px;
+    }
+}

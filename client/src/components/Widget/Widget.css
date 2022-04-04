@@ -1,0 +1,64 @@
+.widget{
+    position: fixed;
+    right: 0;
+    top: 40%;
+    /* width: 50px; */
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.widget .widget_div .divs{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f8f8;
+    margin: 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.widget .widget_div .divs:hover {
+    background-color: #CCEEF2;
+}
+
+
+.Tooltip {
+    position:relative;
+}
+
+.Tooltip:before {
+    content: attr(data-text);
+    position:absolute;
+    top:0;
+    left:-220px;
+    width:200px;
+    padding:10px;
+    border-radius:10px;
+    background:#000;
+    color: #fff;
+    text-align:center;
+    display:none;
+}
+
+.Tooltip::after {
+    content: "";
+    position:absolute;
+    top:16px;
+    transform: rotate(45deg);
+    left:-25px;
+    width:10px;
+    height: 10px;
+    background:#000;
+    display:none;
+}
+
+.Tooltip:hover:before, .Tooltip:hover::after {
+    display:block;
+}

@@ -1,0 +1,54 @@
+.LoginPage.Container .LoginContent {
+    width: 40%;
+    height: fit-content;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.LoginPage.Container .LoginContent label,
+.LoginPage.Container .LoginContent input {
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+    .LoginPage.Container .LoginContent {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .LoginPage.Container .LoginContent {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .LoginPage.Container .LoginContent {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .LoginPage.Container .LoginContent {
+        width: 90%;
+    }
+    .LoginPage.Container .LoginContent,
+    .LoginPage.Container .LoginContent .form-control,
+    .LoginPage.Container .LoginContent .btn {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .LoginPage.Container .LoginContent {
+        padding: 20px;
+    }
+    .LoginPage.Container .LoginContent button {
+        padding: 5px 30px;
+    }
+}

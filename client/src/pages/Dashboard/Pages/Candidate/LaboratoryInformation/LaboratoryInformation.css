@@ -1,0 +1,75 @@
+.LaboratoryInformation{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.LaboratoryInformation .GridDiv .info_container{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.LaboratoryInformation .GridDiv .info_container p{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.LaboratoryInformation .GridDiv .info_container .InputGrid{
+    display: grid;
+    grid-template-columns: 33.33fr 33.33fr 33.33fr;
+    grid-column-gap: 10px;
+}
+
+.LaboratoryInformation .GridDiv h3{
+    text-align: center;
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+.LaboratoryInformation .GridDiv .Inputs{
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.LaboratoryInformation .GridDiv .Inputs input, .LaboratoryInformation .GridDiv .Inputs select{
+    border-radius: 0;
+}
+
+.LaboratoryInformation .GridDiv .Inputs input[type=date]:invalid::-webkit-datetime-edit {
+    color: rgb(160, 160, 160);
+}
+
+.LaboratoryInformation .GridDiv .Inputs label{
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.LaboratoryInformation .GridDiv .Inputs span{
+    position: absolute;
+    font-size: 12px;
+    left: 10px;
+    top: 10px;
+    color: rgb(160, 160, 160);
+    background-color: #fff;
+}
+
+.LaboratoryInformation .GridDiv .LaboratoryInformation_Button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.LaboratoryInformation .GridDiv .LaboratoryInformation_Button button{
+    background-color: #0BBB9B;
+    color: #fff;
+}

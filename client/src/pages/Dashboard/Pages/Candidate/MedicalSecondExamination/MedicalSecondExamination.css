@@ -1,0 +1,36 @@
+.MedicalSecondExamination{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.MedicalSecondExamination .GridDiv .info_container{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.MedicalSecondExamination .GridDiv .info_container .InputGrid{
+    display: grid;
+    grid-template-columns: 33.33fr 33.33fr 33.33fr;
+    grid-column-gap: 10px;
+}
+
+.MedicalSecondExamination .GridDiv h3{
+    text-align: center;
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+.MedicalSecondExamination .GridDiv .MedicalSecondExamination_Button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.MedicalSecondExamination .GridDiv .MedicalSecondExamination_Button button{
+    background-color: #0BBB9B;
+    color: #fff;
+}

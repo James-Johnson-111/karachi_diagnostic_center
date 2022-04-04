@@ -1,0 +1,98 @@
+.CandidateForm {
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.CandidateForm img.CandidaetImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.CandidateForm p {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CandidateForm h3 {
+    text-align: center;
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+.CandidateForm .Inputs {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.CandidateForm .Inputs input {
+    border-radius: 0;
+}
+
+.CandidateForm .Inputs label {
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.CandidateForm .Inputs span {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    color: rgb(160, 160, 160);
+    background-color: #fff;
+}
+
+.CandidateForm .CandidateInformations_Button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.CandidateForm .CandidateInformations_Button button {
+    background-color: #0BBB9B;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .CandidateForm {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .CandidateForm {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .CandidateForm {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contain {
+        height: fit-content !important;
+    }
+    .CandidateForm {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .CandidateForm {
+        width: 95%;
+    }
+}

@@ -1,0 +1,30 @@
+.MedicalFirstExamination {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.MedicalFirstExamination .GridDiv .info_container {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.MedicalFirstExamination .GridDiv h3 {
+    text-align: center;
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+
+.MedicalFirstExamination .GridDiv .MedicalFirstExamination_Button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.MedicalFirstExamination .GridDiv .MedicalFirstExamination_Button button {
+    background-color: #0BBB9B;
+    color: #fff;
+}

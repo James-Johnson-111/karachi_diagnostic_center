@@ -1,0 +1,39 @@
+.Inputs {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.d-flex > .Inputs:first-child {
+    margin-right: 3px;
+}
+
+.d-flex > .Inputs:last-child {
+    margin-left: 3px;
+}
+
+.Inputs input {
+    border-radius: 0;
+}
+
+.Inputs input:disabled {
+    background-color: #fff;
+}
+
+.Inputs label {
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Inputs span {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    color: rgb(160, 160, 160);
+    background-color: #fff;
+}

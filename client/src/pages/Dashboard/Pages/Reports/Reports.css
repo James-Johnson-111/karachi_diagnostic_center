@@ -1,0 +1,102 @@
+.Reports {
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20px 0;
+}
+
+.Reports_Center_Container {
+    width: 70%;
+    margin: 10px auto;
+    /* height: 50vh; */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 30px 30px;
+}
+
+.Reports .Reports_Center {
+    display: grid;
+    grid-template-columns: 33.33fr 33.33fr 33.33fr;
+    grid-column-gap: 30px;
+}
+
+.Reports .Reports_Center .SearchDiv{
+    display: flex;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    position: relative;
+}
+
+.Reports .Reports_Center .SearchDiv .SearchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-right: 1px solid #cfcfcf;
+}
+
+.Reports .Reports_Center .SearchDiv input{
+    border: 0;
+}
+
+.Reports .Reports_Center .SearchDiv label{
+    font-size: 12px;
+    position: absolute;
+    left: 50px;
+    top: -11px;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Reports .Report_List{
+    width: 70%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.Reports .Report_List p{
+    font-size: 12px;
+}
+
+.Reports .Report_List .List_Details{
+    display: grid;
+    grid-template-columns: 10fr 15fr 25fr 25fr 25fr;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Reports .Report_List .List_Details .Index h5{
+    text-align: center;
+    color: #cfcfcf;
+}
+
+.Reports .Report_List .List_Details .Image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #CCEEF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reports .Report_List .List_Details .Info h5{
+    color: gray;
+}
+
+.Reports .Report_List .List_Details .Info p{
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    color: #cfcfcf;
+}
+
+.Reports .Report_List .List_Details:hover{
+    background-color: rgb(247, 247, 247);
+}

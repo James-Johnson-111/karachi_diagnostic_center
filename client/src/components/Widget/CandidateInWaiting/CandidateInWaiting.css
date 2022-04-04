@@ -1,0 +1,55 @@
+.CandidateListIcon .CandidateList {
+    width: 30%;
+    height: 70vh;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .8s;
+    display: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-style: italic;
+    cursor: default;
+    overflow: auto;
+}
+
+.CandidateListIcon:hover > .CandidateList {
+    animation: FadeIn .3s linear 1 forwards alternate;
+    display: block !important;
+}
+
+@keyframes FadeIn {
+    100% {
+        opacity: 1;
+        right: 50px;
+        z-index: 1;
+    }
+}
+
+.CandidateListIcon .CandidateList .Candidate.ListItem {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.CandidateListIcon .CandidateList .Candidate.ListItem .CallCandidate {
+    background-color: #0BB783;
+    color: #fff !important;
+    padding: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.CandidateListIcon .CandidateList .Candidate.ListItem .CallCandidate:hover {
+    background-color: #0aac7b;
+}
+
+.CandidateListIcon .CandidateList .Candidate.ListItem p:last-child {
+    color: gray;
+}

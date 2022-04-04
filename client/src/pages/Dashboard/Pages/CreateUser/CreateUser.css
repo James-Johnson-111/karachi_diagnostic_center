@@ -1,0 +1,87 @@
+.CreateUser {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.CreateUser .CreateUser_div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.CreateUser .CreateUser_div .GridDiv .info_container {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CreateUser .CreateUser_div .GridDiv .info_container img.CandidaetImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.CreateUser .CreateUser_div .GridDiv .info_container p {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreateUser .CreateUser_div .GridDiv h3 {
+    text-align: center;
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+.CreateUser .CreateUser_div .Inputs {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.CreateUser .CreateUser_div .Inputs input {
+    border-radius: 0;
+}
+
+.CreateUser .CreateUser_div .Inputs input:disabled {
+    background-color: #fff;
+}
+
+.CreateUser .CreateUser_div .Inputs label {
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.CreateUser .CreateUser_div .GridDiv .CreateUser_Button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.CreateUser .CreateUser_div .GridDiv .CreateUser_Button button {
+    background-color: #0BBB9B;
+    color: #fff;
+}
+
+.CreateUser .CreateUser_div .GridDiv .info_container .Checkboxgrid{
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    margin-bottom: 20px;
+}
+
+.CreateUser .CreateUser_div .GridDiv .info_container .Checkboxgrid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateUser .CreateUser_div .GridDiv .info_container .Checkboxgrid div label{
+    margin-bottom: 0 ;
+}

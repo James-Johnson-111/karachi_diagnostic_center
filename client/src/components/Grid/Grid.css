@@ -1,0 +1,32 @@
+.Grid {
+    width: 70%;
+    margin: 0 auto;
+    display: none;
+}
+
+@media only screen and (max-width: 1550px) {
+    .Grid {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .Grid {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Grid {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .Grid {
+        display: block !important;
+    }
+    .Grid>div {
+        margin-bottom: 10px;
+    }
+}

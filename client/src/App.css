@@ -1,0 +1,96 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0BB783;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0aac7b;
+}
+
+body {
+    background-color: #CCEEF2;
+    font-family: Poppins;
+}
+
+.overflow-none {
+    overflow-x: none !important;
+    overflow-y: none !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #CCEEF2;
+    border: 1px solid #CCEEF2;
+}
+
+input:disabled,
+select:disabled {
+    background-color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.btn {
+    background-color: #181C32;
+    color: #fff;
+    transition: .5s;
+}
+
+.btn:hover {
+    color: #fff;
+    transform: translateY(-3px)
+}
+
+.logoIcon {
+    animation: smbg 1.5s linear infinite forwards alternate;
+}
+
+.popupHide {
+    transform: scale(0.8);
+    opacity: 0;
+    animation: popupShow .3s linear 1 forwards alternate;
+}
+
+@keyframes popupShow {
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes smbg {
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
